@@ -1,6 +1,6 @@
 ## Silversite C# ASP.NET CMS
 
-Silversite is an ASP.NET CMS, with very unique and interesting concepts.
+Silversite is an ASP.NET CMS, with very unique and interesting concepts. Currently it runs on WebForms, not on MVC.
 
 ### Core concepts of Silversite
 

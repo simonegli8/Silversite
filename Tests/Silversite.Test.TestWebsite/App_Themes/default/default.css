@@ -1,0 +1,7 @@
+﻿.Silversite.EditableContent.Edit:hover {
+	border: 1px solid black;
+	box-shadow: 1px 1px 4px 2px orange;
+}
+
+body {
+}

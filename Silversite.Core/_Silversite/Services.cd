@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Silversite.Services.Provider" Collapsed="true">
+    <Position X="5.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAQAAAAAAAAAAAAAAAQAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CSharp\Services.ProviderModel\Providers.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Silversite.Services.Provider&lt;Service&gt;" Collapsed="true">
+    <Position X="5.75" Y="5.25" Width="1.5" />
+    <InheritanceLine Type="Silversite.Services.Provider" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="6.75" />
+        <Point X="6.5" Y="5.941" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CSharp\Services.ProviderModel\Providers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Silversite.Services.LazyProvider" Collapsed="true">
+    <Position X="3.75" Y="5.25" Width="1.5" />
+    <InheritanceLine Type="Silversite.Services.Provider" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="6.75" />
+        <Point X="6.5" Y="6.316" />
+        <Point X="4.5" Y="6.316" />
+        <Point X="4.5" Y="5.941" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAIAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CSharp\Services.ProviderModel\Providers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Silversite.Services.Providers" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="1.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAQCQiAAAADAGAQAQQAAAAAFIAAAAABCIwCBAAA=</HashCode>
+      <FileName>CSharp\Services.ProviderModel\Providers.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Silversite.Services.Service" Collapsed="true">
+    <Position X="11.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAACAEAAAAQAAAAAAAAAAAAAAAAAACAIAAEAA=</HashCode>
+      <FileName>CSharp\Services.ProviderModel\Services.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Silversite.Services.Service&lt;P&gt;" Collapsed="true">
+    <Position X="11.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CSharp\Services.ProviderModel\Services.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Silversite.Services.ServiceRegistry" Collapsed="true">
+    <Position X="14" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAEAAAQAAAAAABAAAAAAAAAACAAAA=</HashCode>
+      <FileName>CSharp\Services.ProviderModel\Services.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Silversite.Services.Service&lt;SelfT, P&gt;" Collapsed="true">
+    <Position X="9.25" Y="5.25" Width="1.5" />
+    <InheritanceLine Type="Silversite.Services.Service&lt;P&gt;" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="11.5" Y="5.562" />
+        <Point X="10.75" Y="5.562" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAABAAAAAAAAAAAAAAACAIAAAAA=</HashCode>
+      <FileName>CSharp\Services.ProviderModel\Services.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Silversite.Services.FileManager" Collapsed="true">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAQCABACAAAABAAAQAQ=</HashCode>
+      <FileName>CSharp\Services.UI\FileManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Silversite.Services.FileManagerProvider" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <InheritanceLine Type="Silversite.Services.Provider&lt;Service&gt;" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="5.25" />
+        <Point X="6.5" Y="1.566" />
+        <Point X="1.375" Y="1.566" />
+        <Point X="1.375" Y="1.191" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>CSharp\Services.UI\FileManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Silversite.Services.JavaScriptTextEditor" Collapsed="true">
+    <Position X="13.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAIAAIAAAAAAAQAAAA=</HashCode>
+      <FileName>CSharp\Services.UI\JavaScriptTextEditor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Silversite.Services.JavaScriptTextEditorProvider" Collapsed="true">
+    <Position X="3.25" Y="0.5" Width="2.25" />
+    <InheritanceLine Type="Silversite.Services.Provider&lt;Service&gt;" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="5.25" />
+        <Point X="6.5" Y="1.566" />
+        <Point X="4.375" Y="1.566" />
+        <Point X="4.375" Y="1.191" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>CSharp\Services.UI\JavaScriptTextEditor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Silversite.Services.Log" Collapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAIEAAgCAAACQAAAIBYAQAAAAAAoAAAgAQAAEFMAAA=</HashCode>
+      <FileName>CSharp\Services.Common\Log.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Silversite.Services.LogProvider" Collapsed="true">
+    <Position X="2.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIEBAAAA=</HashCode>
+      <FileName>CSharp\Services.Common\Log.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Silversite.Services.Mailbox" Collapsed="true">
+    <Position X="10.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAQAAAAACAAAQAARABACAAgAAACgIABAgAAAEA=</HashCode>
+      <FileName>CSharp\Services.Common\Mail.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Silversite.Services.MailboxProvider" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <InheritanceLine Type="Silversite.Services.Provider&lt;Service&gt;" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="5.25" />
+        <Point X="6.5" Y="4.566" />
+        <Point X="1.25" Y="4.566" />
+        <Point X="1.25" Y="4.191" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAICAAAAAARAAAAAAAAAAAAIAAAAAAAEA=</HashCode>
+      <FileName>CSharp\Services.Common\Mail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Silversite.Services.Sync" Collapsed="true">
+    <Position X="13.75" Y="2" Width="1.5" />
+    <InheritanceLine Type="Silversite.Services.Service&lt;SelfT, P&gt;" ManuallyRouted="true">
+      <Path>
+        <Point X="10" Y="5.25" />
+        <Point X="10" Y="3.081" />
+        <Point X="14.5" Y="3.081" />
+        <Point X="14.5" Y="2.691" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>CSharp\Services.FileSystem\Sync.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Silversite.Services.SyncProvider" Collapsed="true">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <InheritanceLine Type="Silversite.Services.Provider&lt;Service&gt;" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="5.25" />
+        <Point X="6.5" Y="3.066" />
+        <Point X="3.5" Y="3.066" />
+        <Point X="3.5" Y="2.691" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>CSharp\Services.FileSystem\Sync.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Silversite.Services.MimeType" Collapsed="true">
+    <Position X="14.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CSharp\Utils\GetMime.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Silversite.Services.MimeTypeProvider" Collapsed="true">
+    <Position X="4.5" Y="3.5" Width="1.5" />
+    <InheritanceLine Type="Silversite.Services.Provider&lt;Service&gt;" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="5.25" />
+        <Point X="6.5" Y="4.566" />
+        <Point X="5.25" Y="4.566" />
+        <Point X="5.25" Y="4.191" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CSharp\Utils\GetMime.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Silversite.Services.Ftp.FtpClient" Collapsed="true">
+    <Position X="10.75" Y="2" Width="1.5" />
+    <InheritanceLine Type="Silversite.Services.Service&lt;SelfT, P&gt;" ManuallyRouted="true">
+      <Path>
+        <Point X="10" Y="5.25" />
+        <Point X="10" Y="3.106" />
+        <Point X="11.5" Y="3.106" />
+        <Point X="11.5" Y="2.691" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>BEJEIAwBCAAEqigEEAAIAAEciAQQCIEAAC0EwgGAjEg=</HashCode>
+      <FileName>CSharp\Services.FTP\FtpClient.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Silversite.Services.Ftp.FtpProvider" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEJEIAwBCAAAqigEEAAIAAEciAQQCIEAAC0EwgGAjEw=</HashCode>
+      <FileName>CSharp\Services.FTP\FtpProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Silversite.Services.IDataService" Collapsed="true">
+    <Position X="9.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CSharp\Services.ProviderModel\Services.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

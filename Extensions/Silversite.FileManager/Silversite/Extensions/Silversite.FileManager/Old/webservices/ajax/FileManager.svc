@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Silversite.WebFileManager" CodeBehind="FileManager.svc.cs" Factory="System.ServiceModel.Activation.WebScriptServiceHostFactory" %>

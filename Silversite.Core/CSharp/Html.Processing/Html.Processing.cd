@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Silversite.Html.Document" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQAAAIIAQAIQIoIAEAIFECAAggAEgAAACAAIAAMAIBA=</HashCode>
+      <FileName>CSharp\Html.Processing\Documents.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Silversite.Html.Container" Collapsed="true">
+    <Position X="4.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AiAAAIAEAAAAJAQAAEAEECAAAAAAECIAQQQAAEFQABg=</HashCode>
+      <FileName>CSharp\Html.Processing\DocumentBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Silversite.Html.Element" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABACAAAQAAIAAAAAAEAQSAAAAEAIQAQEIAABAABk=</HashCode>
+      <FileName>CSharp\Html.Processing\Documents.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Silversite.Html.ElementBase" Collapsed="true">
+    <Position X="9.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAIEAAAEEAAAAAQBAAAAAAIAACAAAAAAAQAQDA=</HashCode>
+      <FileName>CSharp\Html.Processing\DocumentBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Silversite.Html.Literal" Collapsed="true">
+    <Position X="14" Y="1.75" Width="1.5" />
+    <InheritanceLine Type="Silversite.Html.ElementBase" ManuallyRouted="true">
+      <Path>
+        <Point X="10.25" Y="4.25" />
+        <Point X="10.25" Y="4.066" />
+        <Point X="14.75" Y="4.066" />
+        <Point X="14.75" Y="2.441" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAEAAAAAAEAAAAAAAAAIQAgCgAABAABA=</HashCode>
+      <FileName>CSharp\Html.Processing\Documents.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Silversite.Html.NullDocument" Collapsed="true">
+    <Position X="3.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAIBA=</HashCode>
+      <FileName>CSharp\Html.Processing\Documents.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Silversite.Html.Doctype" Collapsed="true">
+    <Position X="12.25" Y="1.75" Width="1.5" />
+    <InheritanceLine Type="Silversite.Html.ElementBase" ManuallyRouted="true">
+      <Path>
+        <Point X="10.25" Y="4.25" />
+        <Point X="10.25" Y="4.056" />
+        <Point X="13" Y="4.056" />
+        <Point X="13" Y="2.441" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAEAAAAACAAEAAAAAIAAABAABA=</HashCode>
+      <FileName>CSharp\Html.Processing\Documents.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Silversite.Html.DocumentInfo" Collapsed="true">
+    <Position X="5.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAgAAAAAAAAAEAAiAAAEAAAAEAAEEAAAAAAAAAAABA=</HashCode>
+      <FileName>CSharp\Html.Processing\Documents.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Silversite.Html.DocumentNode" Collapsed="true">
+    <Position X="9.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAACEABAAgACJMCAAAIUVgQSACDIGEJSFAMoAAEYABs=</HashCode>
+      <FileName>CSharp\Html.Processing\DocumentBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Silversite.Html.TextNode" Collapsed="true">
+    <Position X="9.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkIgCEAAAgAAEyBAAAACRgAAAAAAAAABARACCAVAYBA=</HashCode>
+      <FileName>CSharp\Html.Processing\TextNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Silversite.Html.Token" Collapsed="true">
+    <Position X="7.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMoAEQAAACAAgCEAAIJgAJDoAQAAAgAgIAAgAACJAAA=</HashCode>
+      <FileName>CSharp\Html.Processing\Token.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Silversite.Html.SpecialElement" Collapsed="true">
+    <Position X="9.75" Y="3" Width="1.5" />
+    <InheritanceLine Type="Silversite.Html.ElementBase" ManuallyRouted="true">
+      <Path>
+        <Point X="10.25" Y="4.25" />
+        <Point X="10.25" Y="4.077" />
+        <Point X="10.5" Y="4.077" />
+        <Point X="10.5" Y="3.691" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAABACAAAQAAIAAAAAAAAQSAACAEAIQAQEoAABAABg=</HashCode>
+      <FileName>CSharp\Html.Processing\Documents.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Silversite.Html.Style" Collapsed="true">
+    <Position X="8.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>CSharp\Html.Processing\Documents.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Silversite.Html.Script" Collapsed="true">
+    <Position X="10.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>CSharp\Html.Processing\Documents.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Silversite.Html.ServerTag" Collapsed="true">
+    <Position X="7" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAkAAAAAAAAIAEAAAAACAMIAAAAAgAABACBA=</HashCode>
+      <FileName>CSharp\Html.Processing\Documents.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Silversite.Html.Tag" Collapsed="true">
+    <Position X="7" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBAAAAAAAAALAAAAAIAAAQACABUAAAAQMIAADQABk=</HashCode>
+      <FileName>CSharp\Html.Processing\Documents.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Silversite.Html.PersistentObject" Collapsed="true">
+    <Position X="2.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAACAAAAAACAAAAAAAAQAACAAUAAAAAIgCABAABA=</HashCode>
+      <FileName>CSharp\Html.Processing\Documents.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Silversite.Html.ChildCollection" Collapsed="true">
+    <Position X="4" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGIgAkAAAAAAEBAQCAAAFAQAAAAAEAIACAAAAABUIDg=</HashCode>
+      <FileName>CSharp\Html.Processing\DocumentBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Silversite.Html.AttributeCollection" Collapsed="true">
+    <Position X="5.75" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AGICAEAQAAAAABAQCAAABAQQAAAAEAAACAAAQABQIBg=</HashCode>
+      <FileName>CSharp\Html.Processing\DocumentBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Silversite.Html.Attribute" Collapsed="true">
+    <Position X="7.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACIAACAAAAAAAIAAAAAABABABACAUAAAAAAgYABABBA=</HashCode>
+      <FileName>CSharp\Html.Processing\DocumentBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Silversite.Html.Reader" Collapsed="true">
+    <Position X="11.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAKgAAAAAIgUAUGgAARIAIAgAQAAAgAIAQQAKIIBEAA=</HashCode>
+      <FileName>CSharp\Html.Processing\Reader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Silversite.Html.Parser" Collapsed="true">
+    <Position X="11.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIggCIAAAEAAQEoACQBAICAAQAABAAAYDGAAAIQAAA=</HashCode>
+      <FileName>CSharp\Html.Processing\Parser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Silversite.Html.Writer" Collapsed="true">
+    <Position X="13.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkABBASwAAABmBgSAAABAAAAAgAAgIAAACAAAAUAAAA=</HashCode>
+      <FileName>CSharp\Html.Processing\Writer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Silversite.Html.Converter" Collapsed="true">
+    <Position X="13.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACYgAEIKghIXQCBEoAAARACBCBCAIEQAQhEAwJEAIQg=</HashCode>
+      <FileName>CSharp\Html.Processing\Converter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Silversite.Html.RegistrationInfo" Collapsed="true">
+    <Position X="1.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAkAAAAAAAAAAAAAAAAAAIIAAAAAAAAABCAA=</HashCode>
+      <FileName>CSharp\Html.Processing\Documents.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

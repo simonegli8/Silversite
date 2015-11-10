@@ -1,0 +1,20 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Silversite API Reference</title>
+</head>
+<body class="vendor-book">
+    <div class="details">
+        <span class="vendor">silversite_org</span>
+        <span class="locale">en-us</span>
+        <span class="product">Silversite API Reference</span>
+        <span class="name">Silversite API Reference</span>
+    </div>
+    <div class="package-list">
+        <div class="package">
+            <!-- NOTE: The "name" span value cannot contain any periods! -->
+            <span class="name">Silversite_API_Reference</span>
+            <a class="current-link" href="Silversite.API.Reference.mshc">Silversite.API.Reference.mshc</a>
+        </div>
+    </div>
+</body>
+</html>

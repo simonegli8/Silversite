@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="test.master.cs" Inherits="Silversite.silversite.test.master.TestMaster" MasterPageFile="~/Silversite/Master/xhtml5.master" %>
+
+<asp:Content runat="server" ContentPlaceHolderID="body">
+
+	<ss:Head runat="server">
+		<ss:Css runat="server" href="~/Silversite/Test/css/test.css" />
+	</ss:Head>	
+
+	<h2>Silversite Testing Suite</h2>
+
+	Test Page: <asp:DropDownList ID="fileswitch" runat="server" AutoPostBack="true" OnSelectedIndexChanged="FileSwitchChanged" /> &nbsp; &nbsp; &nbsp; <asp:HyperLink runat="server" NavigateUrl="~/Silversite/Test" Text="Test Home" />
+	<hr />
+	
+	<asp:ContentPlaceHolder runat="server" ID="content">
+
+		<h2>Test Pages</h2>
+
+		<p>
+			<asp:ListView ID="testfilelist" runat="server">
+				<ItemTemplate>
+					<asp:HyperLink runat="server" NavigateUrl='<%# Eval("Path") %>'  Text='<%# Eval("Name") %>' /><br />
+				</ItemTemplate>
+			</asp:ListView>
+		</p>
+		<hr />
+
+		<asp:ContentPlaceHolder runat="server" ID="adds" />
+
+	</asp:ContentPlaceHolder>
+
+</asp:Content>

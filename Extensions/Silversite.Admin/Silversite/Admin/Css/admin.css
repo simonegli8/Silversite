@@ -1,0 +1,11 @@
+﻿body, p, div, h1, h2, h3, h4, h5, h6, a, ul, li, span, b, strong, table, td, tr, th {
+	font-family: Syntax LT, Verdana, Helvetica, Sans-Serif;	
+}
+
+body {
+	background-color: #f3f4f6;
+}
+
+a { color: #779; }
+a.visited { color: #557; }
+a.hover { color: #446; }

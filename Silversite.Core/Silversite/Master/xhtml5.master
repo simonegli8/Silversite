@@ -1,0 +1,20 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" ClassName="Silversite.Web.UI.DefaultMasterPage" %>
+<%@ Register TagPrefix="ss" Namespace="Silversite.Web.UI" Assembly="Silversite.Core" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head runat="server">
+		<title></title>
+		<asp:ContentPlaceHolder ID="head" runat="server" />
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge" >
+	</head>
+	<body>
+		 <form id="Form" runat="server">
+			 <asp:ScriptManager ID="ScriptManager" runat="server" EnablePageMethods="false" EnableScriptGlobalization="true" EnableScriptLocalization="true" AjaxFrameworkMode="Enabled" EnableCdn="true" />
+			 <div class="root">
+				  <asp:ContentPlaceHolder ID="body" runat="server" />
+			 </div>
+		 </form>
+	</body>
+</html>

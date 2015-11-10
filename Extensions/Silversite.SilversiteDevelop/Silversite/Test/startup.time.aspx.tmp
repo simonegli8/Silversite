@@ -1,0 +1,57 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Silversite/Test/master/test.master" AutoEventWireup="true" CodeBehind="startup.time.aspx.cs" Inherits="Silversite.Test.StartupTimeMeasure" %>
+
+<asp:Content ContentPlaceHolderID="content" runat="server">
+
+	<ss:Head runat="server">
+		<style type="text/css">
+			.entry {
+				background-color: White;
+				white-space: normal;
+			}
+			.altentry {
+				background-color: #efd;
+				white-space: normal;
+			}
+			.tabcell {
+				padding-right: 16px;
+			}
+		</style>
+	</ss:Head>
+
+	<h2>Silversite Startup Time</h2>
+
+	<p>
+		Loops: <asp:TextBox ID="n" runat="server" Witdth="100px" /> <asp:Button runat="server" Text="Start" OnClick="Start" />
+	</p>
+
+	<p>
+		Mean Startup Time: <asp:Label ID="time" runat="server">00:00:0000</asp:Label>
+	</p>
+
+	<h3>Meldungen:</h3>
+
+	<p><asp:Literal ID="messages" runat="server" /></p>
+
+	<h3>History</h3>
+
+	<ss:LogSource ID="source" runat="server">
+		<SelectParameters>
+			<asp:ControlParameter ControlID="category" Name="category" PropertyName="Value" /> 
+		</SelectParameters>
+	</ss:LogSource>
+	
+	<asp:HiddenField runat="server" ID="category" Value="StartupTimeHistory" />
+
+	<asp:GridView ID="grid" runat="server" AutoGenerateColumns="false" ShowHeader="false" GridLines="None" AllowPaging="true" PageSize="50"
+		 RowStyle-CssClass="entry" AlternatingRowStyle-CssClass="altentry" DataSourceID="source" DataKeyNames="Key">
+		<Columns>
+			<asp:TemplateField ShowHeader="false" >
+				<ItemTemplate>
+					<span style="font-weight:bold;"><%= ((DateTime)Eval("Date")).ToLongDateString() + " " + ((DateTime)Eval("Date")).ToLongTimeString() %> </span><br />
+					<%: (Eval("Text") as string).Replace("\n", "<br/>") %>
+				</ItemTemplate>
+			</asp:TemplateField>
+		</Columns>
+	</asp:GridView>
+
+</asp:Content>

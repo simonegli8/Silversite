@@ -1,0 +1,8 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="admin.master.cs" Inherits="Silversite.silversite.admin.master.AdminMaster" MasterPageFile="~/Silversite/Master/xhtml5.master" %>
+
+<asp:Content runat="server" ContentPlaceHolderID="body">
+	<ss:Head runat="server">
+		<ss:Css runat="server" href="~/Silversite/Admin/css/admin.css" />
+	</ss:Head>
+	<asp:ContentPlaceHolder runat="server" ID="page" />
+</asp:Content>

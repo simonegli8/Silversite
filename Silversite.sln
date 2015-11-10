@@ -1,0 +1,108 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Silversite.SilversiteDevelop", "Extensions\Silversite.SilversiteDevelop\Silversite.SilversiteDevelop.csproj", "{AA11CB2F-B900-4258-AD23-1EC350CE33A8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1BAEC32E-0CE6-47C8-BEF0-75F28FF277DE} = {1BAEC32E-0CE6-47C8-BEF0-75F28FF277DE}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Silversite.Test.TestWebsite", "Tests\Silversite.Test.TestWebsite\Silversite.Test.TestWebsite.csproj", "{825C1A9C-B38D-4C2E-8C43-53BEAE05EE96}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BE07B508-1191-4F1B-AC1D-8A63AE1F502C} = {BE07B508-1191-4F1B-AC1D-8A63AE1F502C}
+		{1BAEC32E-0CE6-47C8-BEF0-75F28FF277DE} = {1BAEC32E-0CE6-47C8-BEF0-75F28FF277DE}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Silversite.Test.Database", "Tests\Silversite.Test.Database\Silversite.Test.Database.csproj", "{AA48F52F-FCD0-45E0-B6A4-6532319CC88D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1BAEC32E-0CE6-47C8-BEF0-75F28FF277DE} = {1BAEC32E-0CE6-47C8-BEF0-75F28FF277DE}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Silversite.Admin", "Extensions\Silversite.Admin\Silversite.Admin.csproj", "{32EF2B0D-80A0-4365-A0CE-F289BEDFCCC0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1BAEC32E-0CE6-47C8-BEF0-75F28FF277DE} = {1BAEC32E-0CE6-47C8-BEF0-75F28FF277DE}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Silversite.CKEditor", "Extensions\Silversite.CKEditor\Silversite.CKEditor.csproj", "{3F64EA4D-5FC5-4A4C-8842-44891DF05A5E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1BAEC32E-0CE6-47C8-BEF0-75F28FF277DE} = {1BAEC32E-0CE6-47C8-BEF0-75F28FF277DE}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Silversite.FileManager", "Extensions\Silversite.FileManager\Silversite.FileManager.csproj", "{BE07B508-1191-4F1B-AC1D-8A63AE1F502C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1BAEC32E-0CE6-47C8-BEF0-75F28FF277DE} = {1BAEC32E-0CE6-47C8-BEF0-75F28FF277DE}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Silversite.FTP", "Extensions\Silversite.FTP\Silversite.FTP.csproj", "{3C458835-6F2B-40D4-94B3-E6659BF34705}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1BAEC32E-0CE6-47C8-BEF0-75F28FF277DE} = {1BAEC32E-0CE6-47C8-BEF0-75F28FF277DE}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Silversite.Setup", "Extensions\Silversite.Setup\Silversite.Setup.csproj", "{A586412E-541F-4E24-9E1F-E06987FFE115}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1BAEC32E-0CE6-47C8-BEF0-75F28FF277DE} = {1BAEC32E-0CE6-47C8-BEF0-75F28FF277DE}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Silversite.Core", "Silversite.Core\Silversite.Core.csproj", "{1BAEC32E-0CE6-47C8-BEF0-75F28FF277DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Silversite.jQuery", "Extensions\Silversite.JQuery\Silversite.jQuery.csproj", "{C75D9CC6-4FD4-4519-95E0-E564F429BB71}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1BAEC32E-0CE6-47C8-BEF0-75F28FF277DE} = {1BAEC32E-0CE6-47C8-BEF0-75F28FF277DE}
+	EndProjectSection
+EndProject
+Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "Silversite.API.Reference", "Silversite.API.Reference\Silversite.API.Reference.shfbproj", "{91EDE895-AFF3-4F2E-9605-C3BB67ED5E48}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA11CB2F-B900-4258-AD23-1EC350CE33A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA11CB2F-B900-4258-AD23-1EC350CE33A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA11CB2F-B900-4258-AD23-1EC350CE33A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA11CB2F-B900-4258-AD23-1EC350CE33A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{825C1A9C-B38D-4C2E-8C43-53BEAE05EE96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{825C1A9C-B38D-4C2E-8C43-53BEAE05EE96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{825C1A9C-B38D-4C2E-8C43-53BEAE05EE96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{825C1A9C-B38D-4C2E-8C43-53BEAE05EE96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA48F52F-FCD0-45E0-B6A4-6532319CC88D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA48F52F-FCD0-45E0-B6A4-6532319CC88D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA48F52F-FCD0-45E0-B6A4-6532319CC88D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA48F52F-FCD0-45E0-B6A4-6532319CC88D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32EF2B0D-80A0-4365-A0CE-F289BEDFCCC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32EF2B0D-80A0-4365-A0CE-F289BEDFCCC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32EF2B0D-80A0-4365-A0CE-F289BEDFCCC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32EF2B0D-80A0-4365-A0CE-F289BEDFCCC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F64EA4D-5FC5-4A4C-8842-44891DF05A5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F64EA4D-5FC5-4A4C-8842-44891DF05A5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F64EA4D-5FC5-4A4C-8842-44891DF05A5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F64EA4D-5FC5-4A4C-8842-44891DF05A5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE07B508-1191-4F1B-AC1D-8A63AE1F502C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE07B508-1191-4F1B-AC1D-8A63AE1F502C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE07B508-1191-4F1B-AC1D-8A63AE1F502C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE07B508-1191-4F1B-AC1D-8A63AE1F502C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C458835-6F2B-40D4-94B3-E6659BF34705}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C458835-6F2B-40D4-94B3-E6659BF34705}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C458835-6F2B-40D4-94B3-E6659BF34705}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C458835-6F2B-40D4-94B3-E6659BF34705}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A586412E-541F-4E24-9E1F-E06987FFE115}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A586412E-541F-4E24-9E1F-E06987FFE115}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A586412E-541F-4E24-9E1F-E06987FFE115}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A586412E-541F-4E24-9E1F-E06987FFE115}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BAEC32E-0CE6-47C8-BEF0-75F28FF277DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BAEC32E-0CE6-47C8-BEF0-75F28FF277DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BAEC32E-0CE6-47C8-BEF0-75F28FF277DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BAEC32E-0CE6-47C8-BEF0-75F28FF277DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C75D9CC6-4FD4-4519-95E0-E564F429BB71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C75D9CC6-4FD4-4519-95E0-E564F429BB71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C75D9CC6-4FD4-4519-95E0-E564F429BB71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C75D9CC6-4FD4-4519-95E0-E564F429BB71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91EDE895-AFF3-4F2E-9605-C3BB67ED5E48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91EDE895-AFF3-4F2E-9605-C3BB67ED5E48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

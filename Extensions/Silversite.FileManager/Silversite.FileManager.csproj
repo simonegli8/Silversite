@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BE07B508-1191-4F1B-AC1D-8A63AE1F502C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Silversite.FileManager</RootNamespace>
+    <AssemblyName>Silversite.FileManager</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Silversite.FileManager.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Silversite.FileManager.XML</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Silversite\Extensions\Silversite.FileManager\Old\filemanager.ascx.cs">
+      <DependentUpon>filemanager.ascx</DependentUpon>
+    </None>
+    <None Include="Silversite\Extensions\Silversite.FileManager\Old\filemanager.ascx.designer.cs">
+      <DependentUpon>filemanager.ascx</DependentUpon>
+    </None>
+    <None Include="CSharp\Obsolete\DetailsBuilder.cs">
+      <SubType>Code</SubType>
+    </None>
+    <None Include="CSharp\Obsolete\File.cs">
+      <SubType>Code</SubType>
+    </None>
+    <None Include="CSharp\Obsolete\FileManagerBuilder.cs">
+      <SubType>Code</SubType>
+    </None>
+    <None Include="CSharp\Obsolete\Icon.cs">
+      <SubType>Code</SubType>
+    </None>
+    <None Include="CSharp\Obsolete\MenuBuilder.cs">
+      <SubType>Code</SubType>
+    </None>
+    <None Include="CSharp\Obsolete\TreeBuilder.cs">
+      <SubType>Code</SubType>
+    </None>
+    <Compile Include="CSharp\Content.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CSharp\Hierarchy.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CSharp\Menu.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CSharp\Item.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Silversite\Extensions\Silversite.FileManager\Content.ascx.cs">
+      <DependentUpon>Content.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Silversite\Extensions\Silversite.FileManager\Content.ascx.designer.cs">
+      <DependentUpon>Content.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Silversite\Extensions\Silversite.FileManager\FileManager.ascx.cs">
+      <DependentUpon>FileManager.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Silversite\Extensions\Silversite.FileManager\FileManager.ascx.designer.cs">
+      <DependentUpon>FileManager.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Silversite\Extensions\Silversite.FileManager\Hierarchy.ascx.cs">
+      <DependentUpon>Hierarchy.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Silversite\Extensions\Silversite.FileManager\Hierarchy.ascx.designer.cs">
+      <DependentUpon>Hierarchy.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Silversite\Extensions\Silversite.FileManager\Item.ascx.cs">
+      <DependentUpon>Item.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Silversite\Extensions\Silversite.FileManager\Item.ascx.designer.cs">
+      <DependentUpon>Item.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Silversite\Extensions\Silversite.FileManager\Menu.ascx.cs">
+      <DependentUpon>Menu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Silversite\Extensions\Silversite.FileManager\Menu.ascx.designer.cs">
+      <DependentUpon>Menu.ascx</DependentUpon>
+    </Compile>
+    <None Include="CSharp\Obsolete\Handlers\Configuration.cs" />
+    <None Include="CSharp\Obsolete\Handlers\DownloadHandler.cs" />
+    <None Include="CSharp\Obsolete\Handlers\Handler.cs" />
+    <None Include="CSharp\Obsolete\Handlers\DefaultDirectoryHandler.cs" />
+    <None Include="CSharp\Obsolete\Handlers\DisplayHandler.cs" />
+    <None Include="CSharp\Obsolete\Handlers\NoActionHandler.cs" />
+    <Compile Include="CSharp\FileManagerProvider.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="Silversite\Extensions\Silversite.FileManager\Old\webservices\ajax\Download.ashx.cs">
+      <DependentUpon>Download.ashx</DependentUpon>
+    </None>
+    <None Include="Silversite\Extensions\Silversite.FileManager\Old\webservices\ajax\FileManager.svc.cs">
+      <DependentUpon>FileManager.svc</DependentUpon>
+    </None>
+    <None Include="Silversite\Extensions\Silversite.FileManager\Old\webservices\ajax\Messages.cs" />
+    <None Include="Silversite\Extensions\Silversite.FileManager\Old\webservices\ajax\Upload.ashx.cs">
+      <DependentUpon>Upload.ashx</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Libraries\jquery.curstyles.js" />
+    <None Include="Libraries\jquery.curstyles.min.js" />
+    <None Include="Libraries\jquery.splitter.js" />
+    <None Include="Libraries\jquery.tablesorter.min.js" />
+    <Content Include="Silversite\Config\Silversite.FileManager.config" />
+    <None Include="Silversite\Extensions\Silversite.FileManager\Old\filemanager.ascx" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\FileManager.css" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\FileManager.ascx" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\ReadMe.md" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\filemanager.config.js.default" />
+    <None Include="Silversite\Extensions\Silversite.FileManager\Old\webservices\ajax\Download.ashx" />
+    <None Include="Silversite\Extensions\Silversite.FileManager\Old\webservices\ajax\Upload.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Libraries\jquery.contextMenu-1.01.zip" />
+    <None Include="Libraries\jquery.fileTree-1.01.zip" />
+    <None Include="Libraries\simogeo-Filemanager-cb9de7b.zip" />
+    <None Include="Libraries\splitterpanel-72388.zip" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\Content.ascx" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\Hierarchy.ascx" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\Item.ascx" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\Menu.ascx" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\16arrow-down.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\16arrow-up.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\accept.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\add.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\ajax-loader.gif" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\application_view_icons.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\application_view_list.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\bin_closed.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\btnOFF.gif" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\btnON.gif" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\bullet_arrow_down.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\bullet_arrow_up.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\colSortOFF.gif" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\disk.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\aac.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\avi.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\bmp.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\chm.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\css.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\default.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\dll.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\doc.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\docx.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\fla.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\gif.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\htm.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\html.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\ini.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\jar.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\jpeg.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\jpg.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\js.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\lasso.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\mdb.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\mov.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\mp3.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\mp4.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\mpg.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\ogg.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\ogv.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\other_image.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\other_movie.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\other_music.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\other_music2.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\pdf.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\php.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\png.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\ppt.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\py.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\rb.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\real.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\reg.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\rtf.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\sql.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\swf.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\txt.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\vbs.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\wav.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\webm.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\wma.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\wmv.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\xls.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\xlsx.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\xml.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\xsl.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\zip.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\_Close.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\_Documents.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\_Favorites.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\_Image.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\_Movie.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\_Music.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\_Net.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\_Open.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\_ProgramFiles.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\fileicons\_Works.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\folder_add.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\house.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\parentfolder.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\pencil.png" />
+    <Resource Include="Silversite\Extensions\Silversite.FileManager\images\wait30trans.gif" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\index.html" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\filemanager.js" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\jquery.contextmenu\images\cut.png" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\jquery.contextmenu\images\door.png" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\jquery.contextmenu\images\page_white_copy.png" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\jquery.contextmenu\images\page_white_delete.png" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\jquery.contextmenu\images\page_white_edit.png" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\jquery.contextmenu\images\page_white_paste.png" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\jquery.contextmenu\jquery.contextMenu-1.01.css" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\jquery.contextmenu\jquery.contextMenu-1.01.js" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\jquery.filetree\images\application.png" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\jquery.filetree\images\code.png" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\jquery.filetree\images\css.png" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\jquery.filetree\images\db.png" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\jquery.filetree\images\directory.png" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\jquery.filetree\images\doc.png" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\jquery.filetree\images\file.png" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\jquery.filetree\images\film.png" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\jquery.filetree\images\flash.png" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\jquery.filetree\images\folder_open.png" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\jquery.filetree\images\html.png" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\jquery.filetree\images\java.png" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\jquery.filetree\images\linux.png" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\jquery.filetree\images\music.png" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\jquery.filetree\images\pdf.png" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\jquery.filetree\images\php.png" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\jquery.filetree\images\picture.png" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\jquery.filetree\images\ppt.png" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\jquery.filetree\images\psd.png" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\jquery.filetree\images\ruby.png" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\jquery.filetree\images\script.png" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\jquery.filetree\images\spinner.gif" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\jquery.filetree\images\txt.png" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\jquery.filetree\images\xls.png" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\jquery.filetree\images\zip.png" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\jquery.filetree\jqueryFileTree.css" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\jquery.filetree\jqueryFileTree.js" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\jquery.form-2.63.js" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\jquery.impromptu-3.1.min.js" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\jquery.splitter\hgrabber.gif" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\jquery.splitter\jquery.splitter-1.5.1.js" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\jquery.splitter\jquery.splitter.css" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\jquery.splitter\vgrabber.gif" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\jquery.tablesorter-2.0.5b.min.js" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\languages\ca.js" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\languages\cs.js" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\languages\da.js" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\languages\de.js" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\languages\en.js" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\languages\es.js" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\languages\fi.js" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\languages\fr.js" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\languages\he.js" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\languages\hu.js" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\languages\it.js" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\languages\ja.js" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\languages\nl.js" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\languages\pl.js" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\languages\pt.js" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\languages\ru.js" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\languages\sv.js" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\languages\tr.js" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\languages\vn.js" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\languages\zh-cn.js" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\scripts\languages\zh-tw.js" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\styles\filemanager.css" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\styles\ie.css" />
+    <Content Include="Silversite\Extensions\Silversite.FileManager\Old\styles\reset.css" />
+    <None Include="Silversite\Extensions\Silversite.FileManager\Old\webservices\ajax\FileManager.svc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controls\" />
+    <Folder Include="Silversite\Log\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Silversite.Core\Silversite.Core.csproj">
+      <Project>{1baec32e-0ce6-47c8-bef0-75f28ff277de}</Project>
+      <Name>Silversite.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49936</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:49931/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

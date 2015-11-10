@@ -1,0 +1,3 @@
+﻿<asp:RequiredFieldValidator runat="server" ForeColor="Red" CssClass="Silversite_Validator" />
+<asp:RegularExpressionValidator runat="server" ForeColor="Red" CssClass="Silversite_Validator" />
+<asp:ValidationSummary runat="server" ForeColor="Red" CssClass="Silversite_ValidatorSummary" />

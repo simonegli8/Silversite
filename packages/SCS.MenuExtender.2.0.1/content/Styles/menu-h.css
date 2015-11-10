@@ -1,0 +1,134 @@
+﻿/* top level menu */
+.menu-h ul
+{    
+	padding: 0px;
+	list-style-type: none;
+	margin: 0px;
+}
+
+/* top level menu items */
+.menu-h ul li
+{
+	position: relative;
+	display: inline;
+	float: left;
+	width: 110px;
+}
+
+/* top level menu item links */
+.menu-h ul li a
+{    
+	border: #666 1px solid;
+	padding: 5px;    
+	display: block; 
+	text-decoration: none;    
+	margin-left: -1px;
+}
+
+/* first level child menus */
+.menu-h ul li ul
+{    
+	position: absolute;
+	display: none;    
+	margin-top: -1px;
+	width: 160px;  
+	border-bottom: #666 1px solid;
+	z-index: 10;
+	
+	/* drop shadow settings */
+	-moz-box-shadow: 3px 3px 3px #666; /* FireFox */
+	-webkit-box-shadow: 3px 3px 3px #666; /* Chrome & Safari */
+	box-shadow: 3px 3px 3px #666; /* CSS 3.0 */
+}
+
+/* first level child menu items */
+.menu-h ul li ul li
+{
+	display: list-item;
+	float: none;
+	width: 160px;
+}
+
+/* first level child menu item links */
+.menu-h ul li ul li a
+{
+	border: #666 1px solid;
+	border-bottom: 0;
+	padding: 5px;    
+	width: 150px;        
+}
+
+/* second level and higher child menus */
+.menu-h ul li ul li ul
+{
+	top: 0px;
+	left: 161px;
+	border-bottom: #666 1px solid;
+	margin-top: 0px;
+	z-index: 10;
+}
+
+/* item links (normal) */
+.menu-h .item > a
+{
+	font-weight: bold;
+	color: #777;
+	background: #fff;
+}
+
+/* item link submenu makers (normal) */
+.menu-h .item > a > span
+{
+	right: 0;
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	background-image: url('../images/arrow_r.png');
+}
+
+/* item links (hover) */
+.menu-h .item-hover > a
+{
+	background-color: #036; 
+	color: #fff;
+}
+
+/* item link submenu makers (hover) */
+.menu-h .item-hover > a > span
+{
+	background-image: url('../images/arrow_r_h.png');
+}
+
+
+/* top item links (normal) */
+.menu-h .item-top > a
+{
+	font-weight: bold;
+	color: #777;
+	background: #fff;
+}
+
+/* top item link submenu makers (normal) */
+.menu-h .item-top > a > span
+{
+	right: 0;
+	margin-right: 5px;
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	background-image: url('../images/arrow_d.png');
+}
+
+/* top item links (hover) */
+.menu-h .item-top-hover > a
+{
+	background-color: #036; 
+	color: #fff;
+}
+
+/* top item link submenu makers (hover) */
+.menu-h .item-top-hover > a > span
+{
+	background-image: url('../images/arrow_d_h.png');
+}
+

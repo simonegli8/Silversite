@@ -1,0 +1,3 @@
+﻿- Add Xml LINQ interface to document elements
+- Move Html Parser library to Silversite.Common to speed up Silversite.Core loading
+  The EditableContent is the only class in Silversite.Core using the Html Parser, so implement a Service for EditableContent with a Html Parser Provider

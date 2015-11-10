@@ -1,0 +1,27 @@
+﻿Ideas:
+
+Todo:
+- Setup
+- Admin pages
+- Profile & Session provider
+- EF6
+- EF-Level Replication
+- Editor
+- FileManager
+- FTP Sync
+- AjaxControlToolkit lazy loaded
+- EntityFramework lazy loaded?
+- fix SEH-Crashes (only under VirtualBox?)
+- ELMAH plugin.
+- Finish Package Installer
+- Package Gallery
+- Finish Mail API
+
+Todo Commercial Part:
+- Newsletter
+- Document History
+- Web Services API's
+
+Todo Modules:
+- Wiki Module.
+- All kind of Modules

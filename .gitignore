@@ -1,0 +1,10 @@
+bin/
+obj*/
+*.vsp
+*.suo
+*.user
+*~
+TestResults/
+*.testsettings
+*.vsmdi
+Silversite.API.Reference/Help

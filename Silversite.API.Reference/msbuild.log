@@ -1,0 +1,77 @@
+Build started 17.12.2012 10:12:43.
+     0>Overriding target "GetFrameworkPaths" in project "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Common.Targets" with target "GetFrameworkPaths" from project "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.NETFramework.targets".
+       Overriding target "SatelliteDllsProjectOutputGroup" in project "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Common.Targets" with target "SatelliteDllsProjectOutputGroup" from project "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.WinFX.targets".
+       Overriding target "AllProjectOutputGroups" in project "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Common.Targets" with target "AllProjectOutputGroups" from project "C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\SandcastleHelpFileBuilder.targets".
+       Overriding target "Build" in project "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Common.Targets" with target "Build" from project "C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\SandcastleHelpFileBuilder.targets".
+       Overriding target "Clean" in project "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Common.Targets" with target "Clean" from project "C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\SandcastleHelpFileBuilder.targets".
+       Overriding target "Rebuild" in project "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Common.Targets" with target "Rebuild" from project "C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\SandcastleHelpFileBuilder.targets".
+       Overriding target "AfterBuild" in project "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Common.Targets" with target "AfterBuild" from project "C:\Code\Silversite\Silversite.API.Reference\Silversite.API.Reference.shfbproj".
+     1>Project "C:\Code\Silversite\Silversite.API.Reference\Silversite.API.Reference.shfbproj" on node 1 (default targets).
+     1>Building with tools version "4.0".
+     1>Target "_CheckForInvalidConfigurationAndPlatform" in file "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Common.Targets" from project "C:\Code\Silversite\Silversite.API.Reference\Silversite.API.Reference.shfbproj" (entry point):
+       Task "Error" skipped, due to false condition; ( '$(_InvalidConfigurationError)' == 'true' ) was evaluated as ( '' == 'true' ).
+       Task "Warning" skipped, due to false condition; ( '$(_InvalidConfigurationWarning)' == 'true' ) was evaluated as ( '' == 'true' ).
+       Using "Message" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "Message"
+         Configuration=Debug
+       Done executing task "Message".
+       Task "Message"
+         Platform=AnyCPU
+       Done executing task "Message".
+       Task "Error" skipped, due to false condition; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) was evaluated as ('.\' != '' and !HasTrailingSlash('.\')).
+       Task "Error" skipped, due to false condition; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) was evaluated as ('obj\' != '' and !HasTrailingSlash('obj\')).
+       Task "Error" skipped, due to false condition; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) was evaluated as ('obj\Debug\' != '' and !HasTrailingSlash('obj\Debug\')).
+     1>Done building target "_CheckForInvalidConfigurationAndPlatform" in project "Silversite.API.Reference.shfbproj".
+     1>Target "BeforeBuildHelp" in file "C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\SandcastleHelpFileBuilder.targets" from project "C:\Code\Silversite\Silversite.API.Reference\Silversite.API.Reference.shfbproj" (target "Build" depends on it):
+     1>Done building target "BeforeBuildHelp" in project "Silversite.API.Reference.shfbproj".
+     1>Target "CoreBuildHelp" in file "C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\SandcastleHelpFileBuilder.targets" from project "C:\Code\Silversite\Silversite.API.Reference\Silversite.API.Reference.shfbproj" (target "Build" depends on it):
+       Using "SandcastleBuilder.Utils.MSBuild.BuildHelp" task from assembly "C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\SandcastleBuilder.Utils.dll".
+       Task "SandcastleBuilder.Utils.MSBuild.BuildHelp"
+         Building C:\Code\Silversite\Silversite.API.Reference\Silversite.API.Reference.shfbproj
+         Initializing
+         ClearWorkFolder
+         FindingTools
+         ValidatingDocumentationSources
+         GenerateSharedContent
+         GenerateApiFilter
+         GenerateReflectionInfo
+         GenerateNamespaceSummaries
+         ApplyVisibilityProperties
+         TransformReflectionInfo
+         ModifyHelpTopicFilenames
+         CopyStandardContent
+         CopyAdditionalContent
+         MergeTablesOfContents
+         GenerateIntermediateTableOfContents
+         CreateBuildAssemblerConfigs
+         MergeCustomConfigs
+         BuildReferenceTopics
+         CombiningIntermediateTocFiles
+         ExtractingHtmlInfo
+         GenerateHelpFormatTableOfContents
+         GenerateHelpFileIndex
+         GenerateHelpProject
+         CompilingHelpFile
+         GenerateHelpFormatTableOfContents
+         GenerateHelpProject
+         CompilingHelpFile
+         GenerateHelpFormatTableOfContents
+         GenerateFullTextIndex
+         CopyingWebsiteFiles
+         CleanIntermediates
+         Completed
+         The help output is located at: C:\Code\Silversite\Silversite.API.Reference\Help\
+         Build details can be found in C:\Code\Silversite\Silversite.API.Reference\Help\LastBuild.log
+       Done executing task "SandcastleBuilder.Utils.MSBuild.BuildHelp".
+     1>Done building target "CoreBuildHelp" in project "Silversite.API.Reference.shfbproj".
+     1>Target "AfterBuildHelp" in file "C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\SandcastleHelpFileBuilder.targets" from project "C:\Code\Silversite\Silversite.API.Reference\Silversite.API.Reference.shfbproj" (target "Build" depends on it):
+     1>Done building target "AfterBuildHelp" in project "Silversite.API.Reference.shfbproj".
+     1>Target "Build" in file "C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\SandcastleHelpFileBuilder.targets" from project "C:\Code\Silversite\Silversite.API.Reference\Silversite.API.Reference.shfbproj" (entry point):
+     1>Done building target "Build" in project "Silversite.API.Reference.shfbproj".
+     1>Done Building Project "C:\Code\Silversite\Silversite.API.Reference\Silversite.API.Reference.shfbproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 01:16:38.65

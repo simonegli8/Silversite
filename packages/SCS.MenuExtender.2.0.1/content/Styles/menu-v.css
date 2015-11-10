@@ -1,0 +1,75 @@
+﻿
+/* top level menu */
+.menu-v ul 
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 150px;
+	border-bottom: 1px solid #ccc;
+}
+
+/* top level menu items */
+.menu-v ul li 
+{
+	position: relative;
+}
+
+/* child menus */
+.menu-v ul ul
+{
+	position: absolute;
+	left: 149px; 
+	top: 0;
+	display: none;
+	
+	-moz-box-shadow: 3px 3px 3px #666; /* FireFox */
+	-webkit-box-shadow: 3px 3px 3px #666; /* Chrome & Safari */
+	box-shadow: 3px 3px 3px #666; /* CSS 3.0 */
+}
+
+/* child menu item links */
+.menu-v ul li a
+{
+	display: block;
+	padding: 5px;
+	text-decoration: none;
+	border: 1px solid #ccc;
+	border-bottom: 0;
+}
+
+/* item links (normal). Keep top and sub menu items the same. */
+.menu-v .item > a,
+.menu-v .item-top > a
+{
+	font-weight: bold;
+	color: #777;
+	background: #fff;
+}
+
+/* item link submenu makers (normal). Keep top and sub menu-v items the same. */
+.menu-v .item > a > span,
+.menu-v .item-top > a > span
+{
+	right: 0;
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	background-image: url('../images/arrow_r.png');
+}
+
+/* item links (hover). Keep top and sub menu items the same. */
+.menu-v .item-hover > a,
+.menu-v .item-top-hover > a
+{
+	background-color: #036; 
+	color: #fff;
+}
+
+/* item link submenu makers (hover). Keep top and sub menu items the same. */
+.menu-v .item-hover > a > span,
+.menu-v .item-top-hover > a > span
+{
+	background-image: url('../images/arrow_r_h.png');
+}
+

@@ -1,0 +1,5 @@
+﻿<asp:Wizard runat="server" 
+	StartNextButtonText="Next" StepPreviousButtonText="Back" StepNextButtonText="Next" FinishPreviousButtonText="Back"
+	CancelButtonStyle-CssClass="Silversite_Button" CssClass="Silversite_Wizard" FinishCompleteButtonStyle-CssClass="Silversite_Button" FinishPreviousButtonStyle-CssClass="Silveriste_Button"
+	NavigationButtonStyle-CssClass="Silversite_Button" SideBarButtonStyle-CssClass="Silversite_Button" StartNextButtonStyle-CssClass="Silversite_Button" StepNextButtonStyle-CssClass="Silversite_Button"
+	StepPreviousButtonStyle-CssClass="Silversite_Button" HeaderStyle-CssClass="Silversite_WizardHeader" />

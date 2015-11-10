@@ -1,0 +1,12 @@
+﻿
+<asp:Button runat="server" CssClass="Silversite-Button" />
+
+<asp:DropDownList runat="server" CssClass="Silversite-Select" />
+
+<asp:TextBox runat="server" CssClass="Silversite-Input" />
+
+<asp:GridView runat="server" CssClass="Silversite-GridView" PagerStyle-CssClass="Silversite-GridViewPager" AlternatingRowStyle-CssClass="Silversite-GridViewAlternateRow"
+	EditRowStyle-CssClass="Silversite-GridViewEditRow" EmptyDataRowStyle-CssClass="Silversite-GridViewEmptyDataRow" FooterStyle-CssClass="Silversite-GridViewFooter"
+	HeaderStyle-CssClass="Silversite-GridViewHeader" RowStyle-CssClass="Silversite-GridViewRow" SelectedRowStyle-CssClass=""
+	SortedAscendingHeaderStyle-CssClass="Silversite-SortedAscendingHeader" SortedAscendingCellStyle-CssClass="Silversite-SortedAscendingCell" 
+	SortedDescendingHeaderStyle-CssClass="Silversite-SortedDescendingHeader" SortedDescendingCellStyle-CssClass="Silversite-GridViewSortedDescendingCell" />

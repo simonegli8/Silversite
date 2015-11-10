@@ -1,0 +1,31 @@
+﻿.Silversite-Grid {   
+    width: 100%;
+    background-color: #fff;   
+    margin: 5px 0 10px 0;   
+    border: solid 1px #525252;   
+    border-collapse:collapse;   
+}  
+.Silversite-GridView td {   
+    padding: 2px;   
+    border: solid 1px #c1c1c1;   
+    color: #474747;   
+}  
+.Silversite-Grid th {   
+    padding: 4px 2px;   
+    color: #fff;   
+    background: #424242 url(../../silversite/images/bevel.brown.png) repeat-x center;   
+    border-left: solid 1px #525252;  
+}  
+.mGrid .alternate { background: #fcfcfc url(../../silversite/images/bevel.gray.png) repeat-x center; }  
+.mGrid .pager { background: #424242 url(../../silversite/images/bevel.orange.png) repeat-x center; }  
+.mGrid .pager table { margin: 5px 0; }  
+.mGrid .pager td {
+    border-width: 0;
+    padding: 0 6px;
+    border-left: solid 1px #666;
+    font-weight: bold;
+    color: #fff;
+    line-height: 12px;
+ }     
+.mGrid .pager a { color: #666; text-decoration: none; }  
+.mGrid .pager a:hover { color: #000; text-decoration: none; }

@@ -13,7 +13,7 @@ Silversite is an ASP.NET CMS, with very unique and interesting concepts.
 
 #### If you're interested please contact us on Skype via [simonegli777](skype:simonegli777?call&video=true) or email via [simon<span>@</span>johnshope.com](mailto:simon@johnshope.com)
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="https://www.youtube.com/embed/_WpIro0fD9g?rel=0" width="640"></iframe>
+[Introduction Video](https://www.youtube.com/embed/_WpIro0fD9g?rel=0)
 
 ### Introduction
 

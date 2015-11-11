@@ -15,7 +15,7 @@ If you're interested please contact us on Skype via [simonegli777](skype:simoneg
 
 ### Introduction
 
-[Introduction Video](https://www.youtube.com/embed/_WpIro0fD9g?rel=0)
+[Introduction Video![](intro.png)](https://www.youtube.com/embed/_WpIro0fD9g?rel=0)
 
 #### Motivation
 
